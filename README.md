@@ -1,3 +1,7 @@
+# Tested Environment
+
+* Ubuntu 12.04
+
 # Requirements
 
 * R
