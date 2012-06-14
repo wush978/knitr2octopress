@@ -12,5 +12,9 @@ $(MARKDOWNFILE) : $(MDFILE)
 $(MDFILE) : $(RMDFILE)
 	R --slave --vanilla --args $(@:.md=.Rmd) < Rmd2md.R
 
-
+clean:
+	-rm *.md
+	-rm *.markdown
+	-rm -rf figure
+	-rm NA
 
