@@ -1,6 +1,6 @@
 <?php
 
-$src = __DIR__ . '/' . $argv[1];
+$src = $argv[1];
 
 if (!file_exists( $src )) {
 	echo "$src does not exist\n";
